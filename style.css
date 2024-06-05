@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+        background-image: linear-gradient(to right, #40a73b, #2b2dbc);
+    
+    
+}
+
+.main{
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+
+}
+.main #input{
+    width: 95%;
+    height: 100%;
+    border-radius: 30px;
+    padding-left: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   outline: none;
+    
+}
+#input::placeholder{
+    font-size: 18px;
+    color: grey;
+}
+.search-button{
+    width: 60px;
+    height: 100%;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+.search-button i{
+    color: gray;
+    font-size: 20px;
+}
+.city-info{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+}
+.city-name{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.termometr{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.sun{
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.degree{
+    width: 200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sky-info{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.damp{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.rutubet{
+    width: 100px;
+    height: auto;
+}
+.kulek{
+    width: 100px;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header h2{
+    color: white;
+}
